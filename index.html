@@ -7,7 +7,7 @@ tagline: Be hungry! Be foolish!
 {% for post in paginator.posts %}
 <div class="post-wrapper">
   <h2 class="h2 entry-title">
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a>
   </h2>
   <div class="entry-meta">
       <i class="icon-user"></i>  <span>{{ post.author }}</span> &nbsp;
@@ -75,6 +75,6 @@ tagline: Be hungry! Be foolish!
       <li class="single">next</li>
     {% endif %}
   </ul>
-</div>
+ </div>
 <br />
 <br />

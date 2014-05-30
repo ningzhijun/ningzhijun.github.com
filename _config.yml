@@ -87,7 +87,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : pinkyjie
+      short_name : ningzi
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -96,7 +96,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-45012422-1'
+        tracking_id : 'UA-51497139-1'
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
